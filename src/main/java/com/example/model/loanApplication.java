@@ -14,10 +14,28 @@ public class loanApplication {
         this.creditScore = creditScore;
     }
 
-    public String getName() { return name; }
-    public int getAge() { return age; }
-    public int getIncome() { return income; }
-    public int getCreditScore() { return creditScore; }
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
+    public String getName()
+    { 
+    	return name; 
+    }
+    public int getAge() 
+    { 
+    	return age; 
+    }
+    public int getIncome() 
+    { 
+    	return income; 
+    }
+    public int getCreditScore() 
+    { 
+    	return creditScore; 
+    }
+    public String getStatus() 
+    { 
+    	return status; 
+    }
+    public void setStatus(String status) 
+    { 
+    	this.status = status; 
+    }
 }
